@@ -2,7 +2,9 @@ package jiwon.core.discount;
 
 import jiwon.core.member.Grade;
 import jiwon.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
